@@ -1,0 +1,123 @@
+repo_name: ludoo0d0a/friendlychat
+report_id: 940e5a30b119800865d301b6c35c0959
+repo_type: Public
+timestamp: '2023-11-09T21:55:33+00:00'
+requested_by: ludoo0d0a
+provider: github
+branch: master
+detected_tools_count: 10
+tools:
+- name: Dart
+  description: A new web programming language with libraries, a virtual machine, and
+    tools
+  website_url: https://www.dartlang.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1646/Twitter-02.png
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source: Repo Metadata
+- name: Objective-C
+  description: The primary programming language you use when writing software for
+    OS X and iOS
+  website_url: https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1008/xcode.png
+  detection_source: Repo Metadata
+- name: Android SDK
+  description: An SDK that provides you the API libraries and developer tools necessary
+    to build, test, and debug apps for Android.
+  website_url: http://developer.android.com
+  version: '28.0'
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1010/m8jf0po4imu8t5eemjdd.png
+  detection_source_url: android/app/build.gradle
+  detection_source: android/app/build.gradle
+  last_updated_by: LudoO
+  last_updated_on: 2019-06-03 05:33:17.000000000 Z
+- name: Flutter
+  description: Cross-platform mobile framework from Google
+  website_url: https://flutter.io/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Cross-Platform Mobile Development
+  image_url: https://img.stackshare.io/service/7180/flutter-mark-square-100.png
+  detection_source: pubspec.yaml
+  last_updated_by: LudoO
+  last_updated_on: 2019-06-03 05:31:37.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source: android/app/build.gradle
+  last_updated_by: LudoO
+  last_updated_on: 2019-06-03 05:33:17.000000000 Z
+- name: Android OS
+  description: An open source mobile operating system by Google
+  website_url: https://www.android.com
+  version: '9.0'
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/9586/ZvmtaSXW_400x400.jpg
+  detection_source_url: android/app/build.gradle
+  detection_source: android/app/build.gradle
+  last_updated_by: LudoO
+  last_updated_on: 2019-06-03 05:33:17.000000000 Z
+- name: cupertino_icons
+  description: Default icons asset for Cupertino widgets based on Apple styled icons
+  package_url: https://pub.dartlang.org/cupertino_icons
+  version: 0.1.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source_url: pubspec.yaml
+  detection_source: pubspec.yaml
+  last_updated_by: LudoO
+  last_updated_on: 2019-06-03 05:31:37.000000000 Z
+- name: flutter
+  description: Visit flutter.io to get started
+  package_url: https://pub.dartlang.org/flutter
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pub/image.png
+  detection_source: pubspec.yaml
+  last_updated_by: LudoO
+  last_updated_on: 2019-06-03 05:31:37.000000000 Z
